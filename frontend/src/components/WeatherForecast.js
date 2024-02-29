@@ -23,7 +23,7 @@ export const WeatherForecast = () => {
 
   const fetchWeatherData = async () => {
     try {
-      const apiKey = '0770df201288b97149d3b4937417f34c';
+      const apiKey = 'API KEY';
       const response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}`);
       const data = await response.json();
 
