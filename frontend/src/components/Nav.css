@@ -1,0 +1,24 @@
+k{
+    /* color:white; */
+    font-size:20px;
+  }
+   /* .fa-solid{
+        color:white;
+        width:20px;
+      } */
+.nav-item{
+    padding: 5px;
+}
+.nav-link active{
+    background-color: white;
+}
+.nav-link:hover{
+    background-color:white
+}
+.navbar-brand img{
+    width:70px;
+    height:70px;
+}
+/* .navbar{
+    background-color: (0,0,0,0.5);
+} */

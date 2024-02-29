@@ -1,0 +1,118 @@
+.bgimg{
+  background-image: url('/Users/sumith/Documents/WEATHER/fro/public/images/cloud.gif');
+  background-size: cover;
+  background-position: center;
+}
+.bgimg {
+  color: white;
+}
+.weather-forecast-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .weather-data {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  
+  .forecast-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .forecast-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .date {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .temperature-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .temperature {
+    flex: 1;
+    margin-bottom: 0.5rem;
+  }
+  
+  .description {
+    margin-bottom: 10px;
+  }
+  
+  .icon-container {
+    margin-bottom: 10px;
+  }
+  
+  .iconi {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .weekday {
+    margin-top: 10px;
+  }
+  .weather-data{
+    display:flex;
+    justify-content: space-between;
+  }
+  .todayIcon img{
+    float: right;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 30px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .form {
+      flex-direction: column;
+    }
+  
+    .input {
+      margin-bottom: 10px;
+    }
+  }
+  

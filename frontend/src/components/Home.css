@@ -1,0 +1,55 @@
+.buttons .btn{
+  padding:5px;
+  border-radius: 20px;
+  border:black solid;
+}
+.buttons .btn:hover{
+  border-radius: 20px;
+  border:black solid;
+}
+.textcontent p{
+  font-size: 20px;
+}
+.Homepage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding:60px;
+}
+.view{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textcontent:first-child {
+  order:1;
+  /* flex: 1; */
+}
+
+.imgcontent:last-child {
+  order:2
+}
+
+.wimage {
+  max-width: 100%;
+  width:500px;
+  height: auto;
+}
+/* .textcontent {
+  flex: 0 0 50%;
+  max-width: 70%;
+} */
+
+@media (max-width: 768px) {
+  .Homepage {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .imgcontent {
+    text-align: center;
+  }
+}

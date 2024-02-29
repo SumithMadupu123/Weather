@@ -1,0 +1,61 @@
+.container{
+    width:80%;
+    display:block;
+    margin:0px auto;
+    padding:50px 0px;
+}
+
+.title{
+    width:100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    color:#88941e
+}
+.article{
+    float:left;
+    width:55%;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+.image{
+    float: right;
+    display:block;
+    width:40%;
+}
+.image img{
+    width:100%;
+    height:auto;
+}
+@media screen and (max-width:768px){
+    .container{
+        width:80%;
+        display:block;
+        margin:auto;
+    }
+    .article{
+        float:none;
+        width:100%;
+        display:block;
+        margin:auto;
+    }
+    .image{
+        float:none;
+        width:100%;
+        margin-top: 50px;
+    }
+    .image img{
+        width:100%;
+        height: auto;
+        display:block;
+        margin: auto;
+    }
+
+}
+.section{
+ padding-bottom: 50px;
+}
